@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="190.0" prefWidth="323.0" spacing="20.0" styleClass="body" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chessgame.controllers.SurrenderTieController">
+    <Label alignment="TOP_CENTER" prefWidth="223.0" styleClass="subtitle" text="Do you want to proceed?">
+      <VBox.margin>
+         <Insets top="-110.0" />
+      </VBox.margin></Label>
+
+   <Button onAction="#onNoButtonClick" mnemonicParsing="false" styleClass="no-btn" prefHeight="41" prefWidth="61" text="No">
+      <VBox.margin>
+         <Insets bottom="-94.0" left="100.0" top="47.0" />
+      </VBox.margin>
+   </Button>
+
+    <Button onAction="#onYesButtonClick" mnemonicParsing="false" styleClass="yes-btn" prefHeight="41.0" prefWidth="61.0" text="Yes">
+        <VBox.margin>
+            <Insets bottom="-100.0" right="100.0" top="33.0" />
+        </VBox.margin>
+    </Button>
+
+    <stylesheets>
+        <URL value="@../styles/popUp-styles.css" />
+    </stylesheets>
+</VBox>

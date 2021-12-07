@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" spacing="20.0" styleClass="body" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chessgame.controllers.GameController">
+   <Label prefHeight="73.0" prefWidth="673.0" styleClass="h1" text="Welcome to a new challenge">
+      <VBox.margin>
+         <Insets top="20.0" />
+      </VBox.margin>
+      <font>
+         <Font size="50.0" />
+      </font></Label>
+   <Label layoutX="274.0" layoutY="33.0" prefHeight="45.0" prefWidth="535.0" styleClass="p" text="a place where only the fearless dare to join.">
+      <font>
+         <Font size="28.0" />
+      </font>
+      <VBox.margin>
+         <Insets top="-35.0" />
+      </VBox.margin>
+   </Label>
+   <Label layoutX="388.0" layoutY="103.0" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="427.0" styleClass="p" text="Challenge your friends and family&#10;in one of the most amazing chess &#10;games available." textAlignment="CENTER">
+      <font>
+         <Font size="28.0" />
+      </font>
+      <VBox.margin>
+         <Insets bottom="-350.0" top="200.0" />
+      </VBox.margin>
+   </Label>
+   <ImageView fitHeight="309.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+      <VBox.margin>
+         <Insets bottom="-600.0" right="1200.0" top="150.0" />
+      </VBox.margin>
+      <image>
+         <Image url="@../images/Vectorintro-faces-1.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="261.0" fitWidth="236.0" layoutX="10.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/Vectorintro-faces.png" />
+      </image>
+      <VBox.margin>
+         <Insets bottom="-600.0" right="-1201.0" top="320.0" />
+      </VBox.margin>
+   </ImageView>
+    <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onStartButtonClick" prefHeight="52.0" prefWidth="185.0" styleClass="startBtn" text="START" textAlignment="CENTER">
+      <VBox.margin>
+         <Insets bottom="50.0" top="680.0" />
+      </VBox.margin>
+      <font>
+         <Font size="19.0" />
+      </font></Button>
+   <Label styleClass="h2" text="Are you ready?">
+      <VBox.margin>
+         <Insets bottom="100.0" top="-165.0" />
+      </VBox.margin>
+      <font>
+         <Font size="25.0" />
+      </font></Label>
+
+   <stylesheets>
+      <URL value="@../styles/intro-styles.css" />
+   </stylesheets>
+</VBox>

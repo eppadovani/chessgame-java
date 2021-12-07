@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="190.0" prefWidth="323.0" spacing="20.0" styleClass="body" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chessgame.controllers.SurrenderTieController">
+    <Label alignment="TOP_CENTER" prefHeight="76.0" prefWidth="241.0" styleClass="subtitle" text="It's a tie!&#10;50 movements without capture&#10;or pawn movement." textAlignment="CENTER">
+      <VBox.margin>
+         <Insets top="-100.0" />
+      </VBox.margin></Label>
+
+    <Button mnemonicParsing="false" onAction="#onYesButtonClick" prefHeight="41.0" prefWidth="98.0" styleClass="yes-btn" text="Continue">
+        <VBox.margin>
+            <Insets bottom="-100.0" top="10.0" />
+        </VBox.margin>
+    </Button>
+
+    <stylesheets>
+        <URL value="@../styles/popUp-styles.css" />
+    </stylesheets>
+</VBox>

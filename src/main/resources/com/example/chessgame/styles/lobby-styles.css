@@ -1,0 +1,66 @@
+.body {
+    -fx-background-color: #282a3a;
+}
+
+.h1 {
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #FAFAFA;
+    -fx-font-weight: bold;
+}
+
+.h2 {
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #FAFAFA;
+    -fx-font-weight: bold;
+}
+
+.p {
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #FAFAFA;
+}
+
+.startBtn {
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #1181EF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-background-color: #282a3a;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-border-color: #1181EF;
+    -fx-border-width: 2px;
+}
+
+.startBtn:hover {
+    -fx-text-fill: #FAFAFA;
+    -fx-background-color: #1181EF;
+    -fx-cursor: hand;
+}
+
+.exitBtn {
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #E32418;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-background-color: #282a3a;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-border-color: #E32418;
+    -fx-border-width: 2px;
+}
+
+.exitBtn:hover {
+    -fx-text-fill: #FAFAFA;
+    -fx-background-color: #E32418;
+    -fx-cursor: hand;
+}

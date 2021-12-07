@@ -1,0 +1,137 @@
+.body {
+    -fx-background-color: #282a3a;
+}
+
+.h1:focused {
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fafafa;
+}
+
+.surrender-btn {
+    -fx-background-color: #20212d;
+
+    -fx-cursor: hand;
+
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #1181EF;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.surrender-btn:hover {
+    -fx-background-color: #1181EF;
+
+    -fx-cursor: hand;
+
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #fafafa;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.tie-btn {
+    -fx-background-color: #20212d;
+
+    -fx-cursor: hand;
+
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #1181EF;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.help-btn {
+    -fx-background-color: #20212d;
+
+    -fx-cursor: hand;
+
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #E32418;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.help-btn:hover {
+    -fx-background-color: #E32418;
+
+    -fx-cursor: hand;
+
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #fafafa;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.tie-btn:hover {
+    -fx-background-color: #1181EF;
+
+    -fx-cursor: hand;
+
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #fafafa;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+
+    -fx-alignment: center;
+    -fx-row-valignment: center;
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.board-button-path {
+    -fx-border-width: 5px;
+    -fx-border-radius: 100px;
+    -fx-border-color: red;
+}
+
+.board-button:hover {
+    -fx-cursor: hand;
+}
+
+.board-button:focused {
+    -fx-background-color: rgba(73, 222, 97, 0.94) !important;
+}

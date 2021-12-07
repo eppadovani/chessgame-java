@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" styleClass="body" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="popUpTitle" alignment="TOP_CENTER" styleClass="h1" text="PLACEHOLDER">
+    </Label>
+    <Label fx:id="popUpMessage" maxWidth="357.0" prefWidth="357.0" styleClass="p" text="text goes here" textAlignment="JUSTIFY" wrapText="true" VBox.vgrow="NEVER" />
+
+    <stylesheets>
+        <URL value="@../styles/popUp-styles.css" />
+    </stylesheets>
+</VBox>
