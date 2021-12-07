@@ -29,4 +29,4 @@
 
 ## 📝 License
 
-This project is under license. Check the file [LICENSE](LICENSE.md) for info.
+This project is under license. Check the file [LICENSE](LICENSE) for info.
