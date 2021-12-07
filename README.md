@@ -1,6 +1,7 @@
-# Nome do projeto
+# Chess Game
 
-<img src="file:///C:/Users/padov/Downloads/Logoreadme-img.png" alt="exemplo imagem">
+![Logoreadme-img (1)](https://user-images.githubusercontent.com/59878444/145036274-4886f839-08a3-4831-af46-5b44c0bbf2cf.png)
+
 
 > Discover a new way to play chess.
 
