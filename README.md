@@ -5,6 +5,9 @@
 
 > Discover a new way to play chess.
 
+# Orientations
+Select "main" release and download the project. JavaFX is required in order to run it.
+
 ## 🤝 Developers
 <table>
   <tr>
