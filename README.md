@@ -3,7 +3,7 @@
 ![Logoreadme-img (1)](https://user-images.githubusercontent.com/59878444/145036274-4886f839-08a3-4831-af46-5b44c0bbf2cf.png)
 
 
-> Discover a new way to play chess.
+> Discover a new way to play chess. Logo made by Enzo and Ramon.
 
 # Orientations
 Select "main" release and download the project. JavaFX is required in order to run it.
